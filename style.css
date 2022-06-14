@@ -1,0 +1,50 @@
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+.col-md-6{
+   float: left;
+}
+
+input{
+   outline: unset;
+   width: 100%;
+   float: left;
+   padding: 15px;
+}
+
+
+.error input + span{
+    display: block;
+}
+.form-s .col-md-12{
+    margin-bottom: 20px;
+    float: left;
+ }
+ .btns p{
+    background: #f9f9f9;
+    border: 0;
+    font-size: 24px;
+    padding: 6px 21px;
+    cursor: pointer;
+    width: 25%;
+    float: left;
+    margin: 0px;
+    text-align: center;
+ }
+ .btns p:hover{
+   background: #fff;
+}
+ .btns{
+    width: 100%;
+    float: left;
+ }
+ .calculator-box{
+    width: 60%;
+    float: left;
+ }
+ #error{
+   color: red;
+ }
+ 
